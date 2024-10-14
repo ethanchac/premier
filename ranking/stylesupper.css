@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://cdn.gameleap.com/images/articles/art_bVypNSbqKb/art-img_PUGGorfpd/1x.webp");
+    color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main h1{
+    margin: 20px;
+}
+ul li a{
+    line-height: 80px;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+ul li a:hover{
+    background-color: #706955;
+    transition: 0.5s ease;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
